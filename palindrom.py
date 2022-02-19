@@ -10,3 +10,5 @@ def ispalindrom():
         print(f"Nope")
 
 ispalindrom()
+
+print("thanks for trying my simple code")
