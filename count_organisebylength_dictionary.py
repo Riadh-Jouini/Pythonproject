@@ -1,12 +1,18 @@
+#Problem :
+
+#count number of elements separated by whitespace in a list and print the result as a dictionary.
+
+#Exemple:
+#input : nums = ['Red lobster', 'blue Jay Z', 'Apple pie','Grapes mah nigga','Jackfruit yoyo','Apple Pay']    
+#Output : {'Red lobster': 2, 'blue Jay Z': 3, 'Apple pie': 2, 'Grapes mah nigga': 3, 'Jackfruit yoyo': 2, 'Apple Pay': 2}     
+
+
 from collections import Counter
 nums = ['Red lobster', 'blue Jay Z', 'Apple pie','Grapes mah nigga','Jackfruit yoyo','Apple Pay']
 
 nums_low = nums
 count=dict()
 for i in nums:
-    list1 = []
-    list2 = []
-    list3 = list1 + list2
     dict2={}
     count[i]=count.get(i, 0) + 1
     for key, value in count.items():
