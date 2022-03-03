@@ -3,12 +3,12 @@
 #count number of elements separated by whitespace in a list and print the result as a dictionary.
 
 #Exemple:
-#input : nums = ['Red lobster', 'blue Jay Z', 'Apple pie','Grapes mah nigga','Jackfruit yoyo','Apple Pay']    
-#Output : {'Red lobster': 2, 'blue Jay Z': 3, 'Apple pie': 2, 'Grapes mah nigga': 3, 'Jackfruit yoyo': 2, 'Apple Pay': 2}     
+#input : nums = ['Red lobster', 'blue magic', 'Apple pie','I love Grapes','Jackfruit yo yo','Apple Pay']    
+#Output : {'Red lobster': 2, 'blue magic': 2, 'Apple pie': 2, 'I love Grapes': 3, 'Jackfruit yo yo': 3, 'Apple Pay': 2}     
 
 
 from collections import Counter
-nums = ['Red lobster', 'blue Jay Z', 'Apple pie','Grapes mah nigga','Jackfruit yoyo','Apple Pay']
+nums = ['Red lobster', 'blue magic', 'Apple pie','I love Grapes','Jackfruit yo yo','Apple Pay']
 
 nums_low = nums
 count=dict()
