@@ -6,6 +6,7 @@
 #input : nums = ['Red lobster', 'blue magic', 'Apple pie','I love Grapes','Jackfruit yo yo','Apple Pay']    
 #Output : {'Red lobster': 2, 'blue magic': 2, 'Apple pie': 2, 'I love Grapes': 3, 'Jackfruit yo yo': 3, 'Apple Pay': 2}     
 
+# Solution: 
 
 from collections import Counter
 nums = ['Red lobster', 'blue magic', 'Apple pie','I love Grapes','Jackfruit yo yo','Apple Pay']
